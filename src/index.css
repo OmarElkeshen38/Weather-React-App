@@ -59,3 +59,62 @@ body {
 .navbar .nav-link:is(:hover, .active) {
    border-color: var(--color-secodary);
 }
+
+.forecast {
+   background-color: var(--color-primary);
+   background-image: url(../src/Images/banner.png);
+   background-repeat: no-repeat;
+   min-height: 80vh;
+}
+.forecast-search input {
+   background-color: var(--color-primary);
+   color: var(--bs-white);
+   padding: 1rem 2rem;
+   border-radius: 10rem;
+   outline: unset;
+   border: unset;
+   font-size: 0.8rem;
+}
+.forecast-search button {
+   right: 0.5rem;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.forecast .card {
+   border: unset;
+   border-radius: unset;
+   background-color: var(--color-section) ;
+}
+.forecast .card .deg {
+   font-size: 5rem;
+   font-weight: 700;
+}
+
+.forecast .col:nth-child(2) .card {
+   background-color: var(--color-section2) ;
+
+}
+
+
+
+footer {
+   background-color: var(--color-section2);
+}
+footer .social a {
+   color: var(--color-secodary);
+   background-color: var(--color-primary);
+  
+   border-radius: 50%;
+   display: inline-block;
+   text-decoration: none;
+}
+footer .social a:hover {
+   background-color: var(--color-secodary);
+   color: var(--bs-white);
+}
+footer .social i {
+   display: grid;
+   place-content: center;
+   width: 3rem;
+   height: 3rem;
+}

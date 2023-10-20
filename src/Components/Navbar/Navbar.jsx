@@ -7,7 +7,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container px-5">
                     <a className="navbar-brand hstack" href="#">
-                        <img 
+                        <img
                             src={logoImg}
                             className="w-100"
                             alt="logo"
