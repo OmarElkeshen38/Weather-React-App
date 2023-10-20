@@ -106,72 +106,7 @@ function Weather() {
                 
                 </>
               )}
-              
-              
-              
             </div>
-            {/* <div className="col">
-              <div
-                className="forecast-curent card  h-100 text-center"
-              >
-                <div className="card-header">
-                  <h4
-                    className=" mb-0 h6 text-white text-opacity-50"
-                  >
-                    next day
-                  </h4>
-                </div>
-                <div className="card-body py-5">
-                  <img
-                    src=""
-                    alt="photo weather"
-                  />
-                  <div className="forecast-deg text-white">
-                    <h2 className="mt-3"><sup>o</sup>C</h2>
-                    <h6
-                      className="text-white text-opacity-50 mb-4 fw-light"
-                    >
-                      <sup>o</sup>C
-                    </h6>
-                    <span
-                      className="forecast-custom color__secondary fw-light"
-                    > 
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div
-                className="forecast-curent card  h-100 text-center"
-              >
-                <div className="card-header">
-                  <h4
-                    className=" mb-0 h6 text-white text-opacity-50"
-                  >
-                    
-                  </h4>
-                </div>
-                <div className="card-body py-5">
-                  <img
-                    src=""
-                    alt="photo weather"
-                  />
-                  <div className="forecast-deg text-white">
-                    <h2 className="mt-3"><sup>o</sup>C</h2>
-                    <h6
-                      className="text-white text-opacity-50 mb-4 fw-light"
-                    >
-                      <sup>o</sup>C
-                    </h6>
-                    <span
-                      className="forecast-custom color__secondary fw-light"
-                    > 
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
     </section >
